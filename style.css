@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 2px purple;
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: rgb(234, 215, 234);
+  padding: 20px;
+}
+
+.input-div, .info-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button, label, .age-text {
+  font-weight: bold;
+}
+button {
+  color: white;
+  background-color: plum;
+  border: solid 2px purple;
+  padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
